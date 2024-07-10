@@ -46,6 +46,7 @@ function merge(leftArray, rightArray){
 // Example usage
 const unsortedArray = [5,8,1,6,2,9,4,10,7,3];
 console.log("Unsorted Array: ", unsortedArray);
-
+console.time('mergeSort')
 const sortedArray = mergeSort(unsortedArray);
+console.time('mergeSort');
 console.log("Sorted Array: ", sortedArray);
